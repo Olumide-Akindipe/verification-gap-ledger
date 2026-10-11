@@ -54,7 +54,8 @@ Data and documents: CC BY 4.0 (`LICENSE-DATA`). Code: MIT (`LICENSE`).
 
 ## Cite
 
-See `CITATION.cff`. Suggested: Akindipe, S. O. (2026). *Verification Gap Ledger* (Version 0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23302898
+See `CITATION.cff`. 
+Akindipe, S. O. (2026). *Verification Gap Ledger* (Version 0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23302898
 
 To cite the Ledger across versions, use the concept DOI: https://doi.org/10.5281/zenodo.23302897
 
