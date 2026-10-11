@@ -69,7 +69,7 @@ children.push(
   new Paragraph({ spacing: { after: 80 }, children: [new TextRun({ text: "Verification Gap Ledger, Version 0.1", font: FONT, size: 40, bold: true, color: "1F3864" })] }),
   new Paragraph({ spacing: { after: 60 }, children: [t("Required verification, public results, and outcome attributability in federal and New York State programs funding municipal energy and infrastructure", { size: 24, italics: true })] }),
   new Paragraph({ spacing: { after: 60 }, children: [t(`${AUTH.name}. ${AUTH.affiliation}. ORCID https://orcid.org/${AUTH.orcid}.`)] }),
-  new Paragraph({ spacing: { after: 240 }, children: [t(`Technical report. Version ${S.version}. Sources accessed ${S.access_date}. Archived on Zenodo; DOI on the Zenodo record.`, { color: "555555" })] }),
+  new Paragraph({ spacing: { after: 240 }, children: [t(`Technical report. Version ${S.version}. Sources accessed ${S.access_date}. DOI https://doi.org/10.5281/zenodo.23302898.`, { color: "555555" })] }),
 
   h1("Summary"),
   para(`This report introduces the Verification Gap Ledger, a public register that codes each program based on three scales: the verification of results its rules require (R, 0 to 4), the results it makes public (C, 0 to 4), and whether an external party could attribute program outcomes to the funding (A, 0 to 3). Version 0.1 covers ${n} programs (${S.n_federal} federal and ${S.n_state} New York State) supported by ${S.n_evidence} source-linked evidence items. In this sample, ${S.n_R_at_most_outputs} of ${n} programs (${S.pct_R_at_most_outputs} percent) require no more than output reporting, ${S.n_R_measured_or_better} (${S.pct_R_measured_or_better} percent) require measured outcomes or independent verification, and none of those ${S.n_R_measured_or_better} publish project-level outcome data. ${S.n_A_at_most_1} of ${n} programs (${S.pct_A_at_most_1} percent) score 1 or lower on attributability, and none use a comparison group or formal impact design.`),
@@ -112,7 +112,7 @@ children.push(
   para("Version 0.5 (February 2027) confirms low-confidence codes against award terms, codes federal programs against the current OMB Compliance Supplement, adds remaining major New York State programs, and introduces a second coder. Version 1.0 (May 2027) stabilizes the schema and publishes agreement statistics with a data descriptor paper. Version 2.0 (December 2027) adds a project-level audit for a sample of New York municipalities."),
 
   h1("Data availability"),
-  para("All tables, evidence, code, and this report are available under CC BY 4.0 (data and documents) and MIT (code) at https://github.com/Olumide-Akindipe/verification-gap-ledger and archived at Zenodo."),
+  para("All tables, evidence, code, and this report are available under CC BY 4.0 (data and documents) and MIT (code) at https://github.com/Olumide-Akindipe/verification-gap-ledger and archived at Zenodo: version DOI https://doi.org/10.5281/zenodo.23302898; concept DOI for all versions https://doi.org/10.5281/zenodo.23302897."),
 );
 
 const doc = new Document({

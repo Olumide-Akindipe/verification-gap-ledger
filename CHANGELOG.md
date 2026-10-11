@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.1.0 - 2026-10-11
+## Unreleased
+
+- Added Zenodo DOIs to README, CITATION.cff and technical report (no data changes).
+
+## 0.1.0 - 2026-10-11 (DOI 10.5281/zenodo.23302898)
 
 - First release: 24 programs (15 federal, 9 New York State), 80 evidence items, all confirmed by the maintainer against their sources.
 - VGL-NY-006 (Municipal ZEV Rebate) recoded R1 to R2 after review of the October 2025 request for applications, which requires monitoring information documenting or estimating GHG reductions; authority recorded as ECL Article 54, Title 15 and 6 NYCRR Part 492.
