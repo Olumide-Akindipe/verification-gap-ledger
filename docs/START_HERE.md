@@ -30,7 +30,7 @@ All sources are free and public. Nothing here needs special permission.
 ## What you will have at the end
 
 - [ ] **A public project page** on GitHub where anyone can see and reuse the Ledger: https://github.com/Olumide-Akindipe/verification-gap-ledger
-- [ ] **A permanent citation number (DOI)** from Zenodo, one for the Ledger overall and one for each version: minted when the release is archived
+- [ ] **A permanent citation number (DOI)** from Zenodo, one for the Ledger overall and one for each version: 10.5281/zenodo.23302897 (all versions), 10.5281/zenodo.23302898 (v0.1.0)
 - [ ] **The Ledger itself**: a spreadsheet (CSV) with one row per program, every rating linked to the exact source page
 - [ ] **A codebook and method note** explaining how every rating was decided, so others can check or challenge it
 - [ ] **A short technical report** summarizing what version 0.1 found
@@ -61,4 +61,4 @@ Everything else is built for you.
 5. **First figure and draft report.** You see the gap across all programs in one chart.
 6. **Ready for your check.** You verify, then we publish version 0.1.
 
-*You are here: verified and approved 2026-10-11. Publishing is next.*
+*You are here: verified and approved 2026-10-11. Published on GitHub and Zenodo 2026-10-11. FAIRsharing is next.*
