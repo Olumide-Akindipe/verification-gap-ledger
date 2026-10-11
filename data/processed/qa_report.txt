@@ -1,0 +1,50 @@
+Verification Gap Ledger v0.1.0  QA report
+==================================================
+Programs: 24 (federal 15, state 9)
+Evidence items: 80; open author-verification items: 0
+
+Structural checks:
+  all passed (ids unique, codes in range, every code backed by evidence with a URL)
+
+Distributions:
+  R {'0': 2, '1': 9, '2': 8, '3': 3, '4': 2}
+  C {'0': 12, '1': 5, '2': 5, '3': 1, '4': 1}
+  A {'0': 16, '1': 6, '2': 2}
+
+Confidence of the code-bearing evidence:
+  R: {'high': 6, 'medium': 9, 'low': 9}
+  C: {'medium': 17, 'low': 5, 'high': 2}
+  A: {'medium': 13, 'low': 8, 'high': 3}
+
+Spot checks for the author (verify against the source by hand):
+  VGL-NY-002 Real Time Energy Management: R4 C1 A2
+  VGL-F-007 National Electric Vehicle Infrastructure Formula Program: R3 C1 A1
+  VGL-F-012 Building Resilient Infrastructure and Communities: R2 C4 A1
+  VGL-F-014 Water and Waste Disposal Loan and Grant Program: R0 C0 A0
+  VGL-NY-001 Clean Energy Communities: R4 C2 A1
+
+Programs ordered by open verification items:
+  VGL-F-001   0 open  Energy Efficiency and Conservation Block Grant Program (IIJA)
+  VGL-F-002   0 open  Grid Resilience State and Tribal Formula Grants (IIJA 40101(d))
+  VGL-F-003   0 open  Clean Water State Revolving Fund
+  VGL-F-004   0 open  Drinking Water State Revolving Fund
+  VGL-F-005   0 open  Solar for All (Greenhouse Gas Reduction Fund)
+  VGL-F-006   0 open  Congestion Mitigation and Air Quality Improvement Program
+  VGL-F-007   0 open  National Electric Vehicle Infrastructure Formula Program
+  VGL-F-008   0 open  Charging and Fueling Infrastructure Discretionary Grant Program
+  VGL-F-009   0 open  Elective Pay for clean energy tax credits (IRA sec. 6417)
+  VGL-F-010   0 open  Low or No Emission Vehicle Program
+  VGL-F-011   0 open  Clean School Bus Program
+  VGL-F-012   0 open  Building Resilient Infrastructure and Communities
+  VGL-F-013   0 open  Community Development Block Grant, Entitlement Communities
+  VGL-F-014   0 open  Water and Waste Disposal Loan and Grant Program
+  VGL-F-015   0 open  Climate Pollution Reduction Grants, Implementation
+  VGL-NY-001  0 open  Clean Energy Communities
+  VGL-NY-002  0 open  Real Time Energy Management
+  VGL-NY-003  0 open  Clean Green Schools Initiative
+  VGL-NY-004  0 open  Charge Ready NY 2.0
+  VGL-NY-005  0 open  Climate Smart Communities Grant Program
+  VGL-NY-006  0 open  Municipal Zero-Emission Vehicle Rebate Program
+  VGL-NY-007  0 open  Municipal Zero-Emission Vehicle Infrastructure Grant Program
+  VGL-NY-008  0 open  Smart Street Lighting NY
+  VGL-NY-009  0 open  Green Innovation Grant Program

@@ -1,0 +1,46 @@
+{
+  "version": "0.1.0",
+  "n_programs": 24,
+  "n_federal": 15,
+  "n_state": 9,
+  "n_evidence": 80,
+  "n_evidence_needs_verify": 0,
+  "n_programs_contested_or_terminated": 2,
+  "n_programs_modified": 2,
+  "R_distribution": {
+    "0": 2,
+    "1": 9,
+    "2": 8,
+    "3": 3,
+    "4": 2
+  },
+  "C_distribution": {
+    "0": 12,
+    "1": 5,
+    "2": 5,
+    "3": 1,
+    "4": 1
+  },
+  "A_distribution": {
+    "0": 16,
+    "1": 6,
+    "2": 2
+  },
+  "n_R_measured_or_better": 5,
+  "pct_R_measured_or_better": 21,
+  "n_R_measured_and_C_outcomes_public": 0,
+  "n_R_at_most_outputs": 11,
+  "pct_R_at_most_outputs": 46,
+  "n_A_at_most_1": 22,
+  "pct_A_at_most_1": 92,
+  "n_A3": 0,
+  "n_gap_rc_positive": 14,
+  "n_gap_rc_negative": 5,
+  "mean_gap_outcome": 2.0,
+  "mean_R_federal": 1.6,
+  "mean_R_state": 2.0,
+  "rtem_electric_realization_pct": 20,
+  "rtem_combined_realization_pct": 24,
+  "rtem_source_evidence_id": "VGL-NY-002-E01",
+  "access_date": "2026-10-11"
+}
