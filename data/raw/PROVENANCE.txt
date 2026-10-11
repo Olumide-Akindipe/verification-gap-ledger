@@ -1,0 +1,5 @@
+Provenance note, v0.1
+Sources were read through a web reader on 2026-10-10 because scripted downloads from
+government sites were blocked in the build environment. Each source's URL, locator and
+access date are recorded per evidence item in data/processed/vgl_evidence.csv.
+No raw files are redistributed. v0.5 adds archived copies (Wayback or Zenodo) with SHA-256.
