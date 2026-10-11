@@ -1,0 +1,473 @@
+{
+  "_about": "Hand-coded entries, batch 1. Each program carries its codes and the evidence behind each code. Notes are in the coder's own words. Codes marked needs_verify=true must be confirmed by the author before release.",
+  "reference_sources": [
+    {
+      "ref_id": "UG-200.329",
+      "title": "2 CFR 200.329 Monitoring and reporting program performance (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-D/subject-group-ECFR8feb98c2e3e5ad2/section-200.329",
+      "accessed": "2026-10-10",
+      "note": "Federal floor for all federal awards: periodic performance reports relating accomplishments to award objectives, no less than annually; final report within 120 days. Does not require baselines, outcome measurement, or independent verification. Source 89 FR 30136 (Apr. 22, 2024)."
+    },
+    {
+      "ref_id": "UG-200.301",
+      "title": "2 CFR 200.301 Performance measurement (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-D/subject-group-ECFR8feb98c2e3e5ad2/section-200.301",
+      "accessed": "2026-10-10",
+      "note": "Agencies must measure performance; specifying outcomes, indicators, targets and baseline data in the award is recommended (should), not required."
+    }
+  ],
+  "programs": [
+    {
+      "ledger_id": "VGL-F-001",
+      "program_name": "Energy Efficiency and Conservation Block Grant Program (IIJA)",
+      "level": "federal",
+      "agency": "U.S. Department of Energy",
+      "aln": "81.128",
+      "authority": "42 U.S.C. 17151 et seq.; IIJA sec. 40552",
+      "vehicle": "formula and competitive grant",
+      "municipal_role": "direct recipient (eligible local governments) or subrecipient via state",
+      "asset_classes": "buildings; street lighting; renewable energy; transportation",
+      "status": "active",
+      "status_note": "",
+      "R": 2,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "DOE, EECBG BIL Reporting Guidance (Aug 2023)",
+          "url": "https://www.energy.gov/sites/default/files/2023-08/EECBG-BIL-Reporting-Guidance.pdf",
+          "locator": "Sec. 4.3c; Attachments 1 and 2",
+          "accessed": "2026-10-10",
+          "note": "Recipients report one required primary metric per activity each quarter; IIJA metric set covers energy savings, cost savings, renewable generation and emissions reductions. Guidance does not require metered baselines or M&V, so metrics are treated as estimates.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "GAO-11-379, Recovery Act: EECBG (Apr. 7, 2011)",
+          "url": "https://www.gao.gov/products/gao-11-379",
+          "locator": "Recommendations status",
+          "accessed": "2026-10-10",
+          "note": "Historical context: after GAO review, DOE stopped requiring ARRA-era recipients to calculate savings and instead estimated impacts centrally from reported activity data.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "DOE, EECBG Award Management and Reporting page",
+          "url": "https://www.energy.gov/cmei/scep/energy-efficiency-and-conservation-block-grant-program-award-management-and-reporting",
+          "locator": "whole page (modified 2026-07-20)",
+          "accessed": "2026-10-10",
+          "note": "Describes reports submitted to DOE; no public portal, dashboard or project-level outcome release found.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "DOE, EECBG BIL Reporting Guidance (Aug 2023)",
+          "url": "https://www.energy.gov/sites/default/files/2023-08/EECBG-BIL-Reporting-Guidance.pdf",
+          "locator": "Sec. 4.3",
+          "accessed": "2026-10-10",
+          "note": "No baseline data requirement identified.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-002",
+      "program_name": "Grid Resilience State and Tribal Formula Grants (IIJA 40101(d))",
+      "level": "federal",
+      "agency": "U.S. Department of Energy",
+      "aln": "81.254",
+      "authority": "IIJA sec. 40101(d); 42 U.S.C. 18711",
+      "vehicle": "formula grant to states, subawards",
+      "municipal_role": "subrecipient (municipal electric utilities eligible)",
+      "asset_classes": "electric grid; resilience",
+      "status": "active",
+      "status_note": "",
+      "R": 3,
+      "C": 0,
+      "A": 2,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 3,
+          "source": "DOE, Grid Resilience Formula Grant Metrics Guidance Webinar slides (Oct 2023)",
+          "url": "https://www.energy.gov/sites/default/files/2023-10/Grid%20Resilience%20Formula%20Grant%20Metrics%20Guidance%20Webinar%20Updated%20508%20Presentation%20Slides.pdf",
+          "locator": "slides 13, 15, 28-29, 37",
+          "accessed": "2026-10-10",
+          "note": "Build metrics (outputs) plus impact metrics including SAIDI, SAIFI, CAIDI and outage counts measured before and after implementation; annual report templates require baselining.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same slides",
+          "url": "https://www.energy.gov/sites/default/files/2023-10/Grid%20Resilience%20Formula%20Grant%20Metrics%20Guidance%20Webinar%20Updated%20508%20Presentation%20Slides.pdf",
+          "locator": "slide 12",
+          "accessed": "2026-10-10",
+          "note": "DOE submits a biennial report to Congress on grid resilience gains; no public release of subrecipient impact data located.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 2,
+          "source": "Same slides",
+          "url": "https://www.energy.gov/sites/default/files/2023-10/Grid%20Resilience%20Formula%20Grant%20Metrics%20Guidance%20Webinar%20Updated%20508%20Presentation%20Slides.pdf",
+          "locator": "slide 15",
+          "accessed": "2026-10-10",
+          "note": "Pre and post reliability indices at project level; no comparison group.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-003",
+      "program_name": "Clean Water State Revolving Fund",
+      "level": "federal",
+      "agency": "U.S. Environmental Protection Agency",
+      "aln": "66.458",
+      "authority": "Clean Water Act Title VI, 33 U.S.C. 1381 et seq.",
+      "vehicle": "capitalization grant to state revolving loan fund",
+      "municipal_role": "borrower via state SRF",
+      "asset_classes": "wastewater; stormwater; water and energy efficiency (Green Project Reserve)",
+      "status": "active",
+      "status_note": "",
+      "R": 1,
+      "C": 2,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "EPA, CWSRF Results page",
+          "url": "https://www.epa.gov/node/80731",
+          "locator": "whole page (updated 2026-06-25)",
+          "accessed": "2026-10-10",
+          "note": "Program results reported as assistance agreements, dollars and affordability reach; benefits reporting described only historically (ARRA modeled benefits, 2014 report). No energy outcome requirement identified.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 2,
+          "source": "ASDWA, EPA unveils SRF Public Dashboards and Public Portal",
+          "url": "https://asdwa.org/2023/11/09/epa-unveils-two-new-public-tools-to-provide-easy-access-to-srf-data",
+          "locator": "whole article",
+          "accessed": "2026-10-10",
+          "note": "SRF Public Portal offers downloadable project-specific reports from 2021 onward; outcome fields not confirmed.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "EPA, CWSRF Results page",
+          "url": "https://www.epa.gov/node/80731",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "No baseline or outcome measurement requirement identified.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-004",
+      "program_name": "Drinking Water State Revolving Fund",
+      "level": "federal",
+      "agency": "U.S. Environmental Protection Agency",
+      "aln": "66.468",
+      "authority": "Safe Drinking Water Act sec. 1452, 42 U.S.C. 300j-12",
+      "vehicle": "capitalization grant to state revolving loan fund",
+      "municipal_role": "borrower via state SRF",
+      "asset_classes": "drinking water",
+      "status": "active",
+      "status_note": "",
+      "R": 1,
+      "C": 2,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "EPA, DWSRF state level data (DWNIMS) page",
+          "url": "https://www.epa.gov/dwsrf/state-level-data-drinking-water-national-information-management-system",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "National reporting system tracks financial and project activity; no energy outcome requirement identified.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 2,
+          "source": "ASDWA, EPA unveils SRF Public Dashboards and Public Portal",
+          "url": "https://asdwa.org/2023/11/09/epa-unveils-two-new-public-tools-to-provide-easy-access-to-srf-data",
+          "locator": "whole article",
+          "accessed": "2026-10-10",
+          "note": "Same portal covers DWSRF; project-specific reports from 2021, downloadable.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "EPA, DWSRF state level data page",
+          "url": "https://www.epa.gov/dwsrf/state-level-data-drinking-water-national-information-management-system",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "No baseline or outcome measurement requirement identified.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-005",
+      "program_name": "Solar for All (Greenhouse Gas Reduction Fund)",
+      "level": "federal",
+      "agency": "U.S. Environmental Protection Agency",
+      "aln": "66.959",
+      "authority": "Clean Air Act sec. 134 (IRA sec. 60103)",
+      "vehicle": "competitive grant to states, municipalities, tribes, nonprofits",
+      "municipal_role": "direct recipient (municipalities eligible); subrecipient via state programs",
+      "asset_classes": "distributed solar; storage",
+      "status": "terminated_contested",
+      "status_note": "EPA announced on Aug. 7, 2025 it would no longer implement the program, citing repeal of authority and rescission of remaining funds. On Sept. 18, 2026 the U.S. District Court for the District of Rhode Island vacated the termination. Further proceedings possible.",
+      "R": 2,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "STATUS",
+          "code": null,
+          "source": "EPA, GGRF page (updated 2026-09-09)",
+          "url": "https://www.epa.gov/node/289146",
+          "locator": "program status statement",
+          "accessed": "2026-10-10",
+          "note": "Aug. 7, 2025 announcement that EPA would no longer implement the program.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "STATUS",
+          "code": null,
+          "source": "CT Mirror, Solar for All termination ruled illegal (Sept. 18, 2026)",
+          "url": "https://ctmirror.org/2026/09/18/trumps-solar-for-all-termination-ruled-illegal/",
+          "locator": "whole article",
+          "accessed": "2026-10-10",
+          "note": "D.R.I. vacated the termination as contrary to congressional intent for obligated grants.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "EPA, Solar for All household savings highlights (archived Jan. 19, 2025 snapshot)",
+          "url": "https://19january2025snapshot.epa.gov/greenhouse-gas-reduction-fund/solar-all-solar-household-savings-highlights",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "Selectees committed to at least 20 percent household savings; page gives no measurement method. A coalition contractor RFP describes expected savings verified by sample audits, consistent with estimated outcomes.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "EPA, GGRF page",
+          "url": "https://www.epa.gov/node/289146",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "No public outcome data located.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "CESA, IPC RFP Impact Reporting and Household Savings (2025)",
+          "url": "https://www.cesa.org/wp-content/uploads/IPC-RFP-Impact-Reporting-and-Household-Savings.pdf",
+          "locator": "scope of work",
+          "accessed": "2026-10-10",
+          "note": "No baseline requirement stated; savings described as expected.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-006",
+      "program_name": "Congestion Mitigation and Air Quality Improvement Program",
+      "level": "federal",
+      "agency": "U.S. Department of Transportation, FHWA and FTA",
+      "aln": "20.205",
+      "authority": "23 U.S.C. 149",
+      "vehicle": "formula apportionment to states",
+      "municipal_role": "project sponsor via state DOT or MPO",
+      "asset_classes": "transportation; fleet; traffic signals",
+      "status": "active",
+      "status_note": "",
+      "R": 2,
+      "C": 3,
+      "A": 1,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "Data.gov, CMAQ Public Access System dataset record",
+          "url": "https://catalog.data.gov/dataset/congestion-mitigation-and-air-quality-cmaq-public-access-system",
+          "locator": "dataset description",
+          "accessed": "2026-10-10",
+          "note": "States submit annual project-level obligation reports each March. Statutory annual report includes estimated emission reductions per project (23 U.S.C. 149(i)); confirm field in a PAS export.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 3,
+          "source": "FHWA, CMAQ Public Access System",
+          "url": "https://fhwaapps.fhwa.dot.gov/cmaq_pub/",
+          "locator": "public reports",
+          "accessed": "2026-10-10",
+          "note": "Public, project-level, U.S. government work, updated annually (dataset last updated 2026-09-16). Coded C3 on the expectation that estimated emissions benefits are shown per project.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 1,
+          "source": "Same",
+          "url": "https://catalog.data.gov/dataset/congestion-mitigation-and-air-quality-cmaq-public-access-system",
+          "locator": "dataset description",
+          "accessed": "2026-10-10",
+          "note": "Benefits are ex ante estimates against a modeled no-build case; no measured outcome or comparison group.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-007",
+      "program_name": "National Electric Vehicle Infrastructure Formula Program",
+      "level": "federal",
+      "agency": "U.S. Department of Transportation, FHWA",
+      "aln": "20.205",
+      "authority": "IIJA Div. J, Title VIII; 23 CFR part 680",
+      "vehicle": "formula apportionment to states",
+      "municipal_role": "subrecipient or site host via state DOT",
+      "asset_classes": "EV charging",
+      "status": "active_modified",
+      "status_note": "Suspended by FHWA in Feb. 2025; revised guidance issued Aug. 2025; about $503.8 million rescinded in Jan. 2026; spacing requirements removed Feb. 2026.",
+      "R": 3,
+      "C": 1,
+      "A": 1,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 3,
+          "source": "23 CFR 680.112 Data submittal (eCFR)",
+          "url": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-680/section-680.112",
+          "locator": "paragraphs (a)-(c)",
+          "accessed": "2026-10-10",
+          "note": "Quarterly metered operating data per port: sessions, kWh dispensed, peak power, uptime and outage minutes; annual maintenance cost; one-time capital and grid cost data.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 1,
+          "source": "23 CFR 680.112",
+          "url": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-680/section-680.112",
+          "locator": "public disclosure clause",
+          "accessed": "2026-10-10",
+          "note": "Any public release must be aggregated and anonymized. A national public aggregate release has not been confirmed.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 1,
+          "source": "23 CFR 680.112",
+          "url": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-680/section-680.112",
+          "locator": "paragraph (a)",
+          "accessed": "2026-10-10",
+          "note": "Measures station performance, not program outcomes against a counterfactual such as EV adoption or emissions.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "STATUS",
+          "code": null,
+          "source": "Atlas Public Policy, NEVI Status Update Fact Sheet (July 2026)",
+          "url": "https://atlaspolicy.com/wp-content/uploads/2026/07/NEVI-Status-Update-Fact-Sheet.pdf",
+          "locator": "whole document",
+          "accessed": "2026-10-10",
+          "note": "Suspension, revised guidance, rescission and spacing change as summarized in status_note.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-008",
+      "program_name": "Charging and Fueling Infrastructure Discretionary Grant Program",
+      "level": "federal",
+      "agency": "U.S. Department of Transportation, FHWA",
+      "aln": "20.205",
+      "authority": "23 U.S.C. 151(f); 23 CFR part 680",
+      "vehicle": "competitive grant",
+      "municipal_role": "direct recipient (local governments eligible)",
+      "asset_classes": "EV charging; alternative fuels",
+      "status": "active",
+      "status_note": "",
+      "R": 3,
+      "C": 1,
+      "A": 1,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 3,
+          "source": "23 CFR 680.112 Data submittal (eCFR)",
+          "url": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-680/section-680.112",
+          "locator": "paragraph (c) names 23 U.S.C. 151(f) grants; (a)-(b) apply to direct recipients",
+          "accessed": "2026-10-10",
+          "note": "Same metered data submittal applies to funded charging stations.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 1,
+          "source": "23 CFR 680.112",
+          "url": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-680/section-680.112",
+          "locator": "public disclosure clause",
+          "accessed": "2026-10-10",
+          "note": "Aggregated release only, not confirmed.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 1,
+          "source": "23 CFR 680.112",
+          "url": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-680/section-680.112",
+          "locator": "paragraph (a)",
+          "accessed": "2026-10-10",
+          "note": "Operational performance only.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    }
+  ]
+}

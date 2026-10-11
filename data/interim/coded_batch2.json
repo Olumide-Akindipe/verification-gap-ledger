@@ -1,0 +1,396 @@
+{
+  "_about": "Hand-coded entries, batch 2 (remaining federal programs).",
+  "reference_sources": [],
+  "programs": [
+    {
+      "ledger_id": "VGL-F-009",
+      "program_name": "Elective Pay for clean energy tax credits (IRA sec. 6417)",
+      "level": "federal",
+      "agency": "U.S. Department of the Treasury, Internal Revenue Service",
+      "aln": "",
+      "authority": "26 U.S.C. 6417",
+      "vehicle": "refundable tax credit payment",
+      "municipal_role": "direct claimant (state and local governments are applicable entities)",
+      "asset_classes": "solar; storage; EV charging; clean vehicles; geothermal",
+      "status": "active_modified",
+      "status_note": "2025 federal tax legislation changed eligibility timelines for several clean electricity credits; confirm current dates for each credit.",
+      "R": 0,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 0,
+          "source": "IRS, Elective pay and transferability (updated 2026-06-27)",
+          "url": "https://www.irs.gov/credits-deductions/elective-pay-and-transferability",
+          "locator": "registration and domestic content sections",
+          "accessed": "2026-10-10",
+          "note": "Requires pre-filing registration and a return claiming the credit; substantiation concerns eligibility, cost basis and labor and content rules, not performance. Investment credits are cost-based; production credits use metered output, which a future version should code separately.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "IRS, Elective pay and transferability",
+          "url": "https://www.irs.gov/credits-deductions/elective-pay-and-transferability",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "No public entity-level or project-level results; tax return information is confidential by statute.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "IRS, Elective pay and transferability",
+          "url": "https://www.irs.gov/credits-deductions/elective-pay-and-transferability",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "No baseline or outcome measure.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "STATUS",
+          "code": null,
+          "source": "IRS, Elective pay and transferability",
+          "url": "https://www.irs.gov/credits-deductions/elective-pay-and-transferability",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "Page does not describe 2025 statutory changes; status note requires author confirmation from Treasury or IRS guidance.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-010",
+      "program_name": "Low or No Emission Vehicle Program",
+      "level": "federal",
+      "agency": "U.S. Department of Transportation, FTA",
+      "aln": "20.526",
+      "authority": "49 U.S.C. 5339(c)",
+      "vehicle": "competitive grant",
+      "municipal_role": "direct recipient (municipal transit agencies)",
+      "asset_classes": "transit fleet; charging and fueling facilities",
+      "status": "active",
+      "status_note": "",
+      "R": 1,
+      "C": 1,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "FTA, Information collection notice for Buses and Bus Facilities and Low or No Emission Programs, FR Doc. 2026-05918 (Mar. 26, 2026)",
+          "url": "https://public-inspection.federalregister.gov/2026-05918.pdf",
+          "locator": "description of collection",
+          "accessed": "2026-10-10",
+          "note": "Post-award reporting covers milestones, fund use, equipment specifications, compliance certifications and periodic performance reports; no emissions or energy outcome reporting described.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 1,
+          "source": "FTA, National Transit Database 2023 Energy Consumption data product",
+          "url": "https://www.transit.dot.gov/ntd/data-product/2023-annual-database-energy-consumption",
+          "locator": "data product description",
+          "accessed": "2026-10-10",
+          "note": "NTD publishes energy consumption by mode, type of service and fuel type. It is not tied to individual grants, so it supports only aggregate observation of fleet energy use.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "FR Doc. 2026-05918",
+          "url": "https://public-inspection.federalregister.gov/2026-05918.pdf",
+          "locator": "description of collection",
+          "accessed": "2026-10-10",
+          "note": "No baseline requirement described.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-011",
+      "program_name": "Clean School Bus Program",
+      "level": "federal",
+      "agency": "U.S. Environmental Protection Agency",
+      "aln": "66.045",
+      "authority": "IIJA sec. 71101; 42 U.S.C. 16091",
+      "vehicle": "rebates and competitive grants",
+      "municipal_role": "direct recipient (public school districts)",
+      "asset_classes": "school bus fleet; charging",
+      "status": "active",
+      "status_note": "",
+      "R": 1,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "EPA, Clean School Bus vehicle disposition evidence webinar slides (Mar. 10, 2026)",
+          "url": "https://www.epa.gov/system/files/documents/2026-03/csb-vehicle-disposition-evidence-webinar-2026-0310.pdf",
+          "locator": "evidence and certification slides",
+          "accessed": "2026-10-10",
+          "note": "Outputs are verified with photographic scrappage evidence and signed statements; final performance report or close out form. No operational, energy or emissions outcome reporting described.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same slides",
+          "url": "https://www.epa.gov/system/files/documents/2026-03/csb-vehicle-disposition-evidence-webinar-2026-0310.pdf",
+          "locator": "whole document",
+          "accessed": "2026-10-10",
+          "note": "No statement that delivered results are published. Award lists exist but awards are not results under the coding protocol.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same slides",
+          "url": "https://www.epa.gov/system/files/documents/2026-03/csb-vehicle-disposition-evidence-webinar-2026-0310.pdf",
+          "locator": "whole document",
+          "accessed": "2026-10-10",
+          "note": "No baseline or outcome measure.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-012",
+      "program_name": "Building Resilient Infrastructure and Communities",
+      "level": "federal",
+      "agency": "Federal Emergency Management Agency",
+      "aln": "97.047",
+      "authority": "Stafford Act sec. 203, 42 U.S.C. 5133",
+      "vehicle": "competitive grant via state, subapplications",
+      "municipal_role": "subrecipient via state",
+      "asset_classes": "resilience; utilities; public facilities; water",
+      "status": "terminated_contested",
+      "status_note": "FEMA announced the end of BRIC on Apr. 4, 2025. On Dec. 11, 2025 a federal court ruled the termination unlawful and permanently enjoined it; as of Feb. 2026 no restoration timetable existed.",
+      "R": 2,
+      "C": 4,
+      "A": 1,
+      "evidence": [
+        {
+          "dim": "STATUS",
+          "code": null,
+          "source": "Congressional Research Service, IN12609, BRIC: Recent Developments (Feb. 19, 2026)",
+          "url": "https://www.everycrsreport.com/files/2026-02-19_IN12609_72da644f6d0dce014c98ceaf9012174ac7b2e426.html",
+          "locator": "whole insight",
+          "accessed": "2026-10-10",
+          "note": "Cancellation, litigation and injunction history as summarized in status_note; about $1 billion of $4.67 billion selected for FY2020 to FY2023 obligated as of Jan. 29, 2026.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "OpenFEMA, Hazard Mitigation Assistance Projects v4",
+          "url": "https://www.fema.gov/openfema-data-page/hazard-mitigation-assistance-projects-v4",
+          "locator": "field definitions: benefitCostRatio, netValueBenefits",
+          "accessed": "2026-10-10",
+          "note": "Projects carry an ex ante benefit cost ratio, with 1.0 or greater treated as cost effective. This is a modeled estimate of avoided losses, not a measured result.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 4,
+          "source": "OpenFEMA, Hazard Mitigation Assistance Projects v4",
+          "url": "https://www.fema.gov/openfema-data-page/hazard-mitigation-assistance-projects-v4",
+          "locator": "formats and API",
+          "accessed": "2026-10-10",
+          "note": "Project-level records including BRIC, with estimated benefit fields and status; bulk CSV, JSON and Parquet; API; updated daily.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 1,
+          "source": "OpenFEMA, Hazard Mitigation Assistance Projects v4",
+          "url": "https://www.fema.gov/openfema-data-page/hazard-mitigation-assistance-projects-v4",
+          "locator": "benefitCostRatio definition",
+          "accessed": "2026-10-10",
+          "note": "Benefit cost analysis uses a modeled no-action baseline; no measured post-event loss avoidance in this dataset.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-013",
+      "program_name": "Community Development Block Grant, Entitlement Communities",
+      "level": "federal",
+      "agency": "U.S. Department of Housing and Urban Development",
+      "aln": "14.218",
+      "authority": "Housing and Community Development Act of 1974, Title I",
+      "vehicle": "formula grant",
+      "municipal_role": "direct recipient (entitlement cities and urban counties)",
+      "asset_classes": "public facilities; infrastructure; housing",
+      "status": "active",
+      "status_note": "",
+      "R": 1,
+      "C": 1,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "Data.gov, CDBG Accomplishment Reports dataset record",
+          "url": "https://catalog.data.gov/dataset/cdbg-accomplishment-data",
+          "locator": "dataset description",
+          "accessed": "2026-10-10",
+          "note": "Grantees report accomplishments for housing, economic development, public improvement and public service activities through IDIS. No energy outcome metric identified.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 1,
+          "source": "Same",
+          "url": "https://catalog.data.gov/dataset/cdbg-accomplishment-data",
+          "locator": "dataset description and dates",
+          "accessed": "2026-10-10",
+          "note": "Accomplishment profiles by grantee and program year; underlying data last modified 2019-12-31 per catalog metadata. Grantee CAPER reports may give activity detail.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://catalog.data.gov/dataset/cdbg-accomplishment-data",
+          "locator": "dataset description",
+          "accessed": "2026-10-10",
+          "note": "No baseline or outcome measure for energy.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-014",
+      "program_name": "Water and Waste Disposal Loan and Grant Program",
+      "level": "federal",
+      "agency": "U.S. Department of Agriculture, Rural Development",
+      "aln": "10.760",
+      "authority": "Consolidated Farm and Rural Development Act sec. 306; 7 CFR part 1780",
+      "vehicle": "direct loan and grant",
+      "municipal_role": "direct borrower (rural municipalities and districts)",
+      "asset_classes": "drinking water; wastewater; stormwater; solid waste",
+      "status": "active",
+      "status_note": "",
+      "R": 0,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 0,
+          "source": "OMB Compliance Supplement 2021, Part 4, ALN 10.760 (copy hosted by NC Department of State Treasurer)",
+          "url": "https://www.nctreasurer.gov/documents/files/slgfd/lgc/localgovfiscalmngmt/annualaud/compliancesupplements/2021-omb-compliance-supplement-part-4-10760/open",
+          "locator": "Section L, Reporting",
+          "accessed": "2026-10-10",
+          "note": "Financial statements (RD 442-2, RD 442-3) apply; performance reporting and special reporting marked not applicable. Edition is 2021; confirm against the current supplement.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same",
+          "url": "https://www.nctreasurer.gov/documents/files/slgfd/lgc/localgovfiscalmngmt/annualaud/compliancesupplements/2021-omb-compliance-supplement-part-4-10760/open",
+          "locator": "Section L",
+          "accessed": "2026-10-10",
+          "note": "No performance data collected under the supplement, so none published.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://www.nctreasurer.gov/documents/files/slgfd/lgc/localgovfiscalmngmt/annualaud/compliancesupplements/2021-omb-compliance-supplement-part-4-10760/open",
+          "locator": "Part I program objectives",
+          "accessed": "2026-10-10",
+          "note": "Objectives stated without measurable outcomes or targets.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-F-015",
+      "program_name": "Climate Pollution Reduction Grants, Implementation",
+      "level": "federal",
+      "agency": "U.S. Environmental Protection Agency",
+      "aln": "66.046",
+      "authority": "Clean Air Act sec. 137 (IRA sec. 60114)",
+      "vehicle": "competitive grant",
+      "municipal_role": "direct recipient (municipalities and coalitions) or subrecipient",
+      "asset_classes": "buildings; transportation; energy; waste",
+      "status": "active",
+      "status_note": "Status after 2025 federal grant reviews not confirmed.",
+      "R": 2,
+      "C": 0,
+      "A": 1,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "EPA, CPRG Implementation Grant Applications: Documentation of GHG Reduction Assumptions (Dec. 2023)",
+          "url": "https://www.epa.gov/system/files/documents/2023-12/cprg-implementation-grant-applications-documentation-of-ghg-reduction-assumptions.pdf",
+          "locator": "whole document",
+          "accessed": "2026-10-10",
+          "note": "Applicants projected GHG reductions per measure with documented assumptions. Post-award reporting of achieved reductions not yet confirmed from award terms.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same",
+          "url": "https://www.epa.gov/system/files/documents/2023-12/cprg-implementation-grant-applications-documentation-of-ghg-reduction-assumptions.pdf",
+          "locator": "whole document",
+          "accessed": "2026-10-10",
+          "note": "No public results release located.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 1,
+          "source": "Same",
+          "url": "https://www.epa.gov/system/files/documents/2023-12/cprg-implementation-grant-applications-documentation-of-ghg-reduction-assumptions.pdf",
+          "locator": "whole document",
+          "accessed": "2026-10-10",
+          "note": "Projections are made against a business-as-usual baseline; no measured counterfactual.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "STATUS",
+          "code": null,
+          "source": "None located",
+          "url": "",
+          "locator": "",
+          "accessed": "2026-10-10",
+          "note": "Author to confirm current status.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    }
+  ]
+}

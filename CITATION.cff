@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Verification Gap Ledger"
+abstract: "An open, versioned register of federal and New York State programs funding municipal energy and infrastructure, coded for required verification, public results, and outcome attributability, with source-level evidence for every code."
+version: "0.1.0"
+date-released: "2026-10-11"
+authors:
+  - family-names: "Akindipe"
+    given-names: "Stephen Olumide"
+    orcid: "https://orcid.org/0000-0002-1846-9662"
+    affiliation: "Independent Researcher, Albany, NY, USA"
+license: CC-BY-4.0
+repository-code: "https://github.com/Olumide-Akindipe/verification-gap-ledger"
+keywords:
+  - "municipal energy"
+  - "infrastructure finance"
+  - "measurement and verification"
+  - "program evaluation"
+  - "federal grants"
+  - "New York State"
+  - "open data"

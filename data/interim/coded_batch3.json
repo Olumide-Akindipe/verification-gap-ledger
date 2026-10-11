@@ -1,0 +1,484 @@
+{
+  "_about": "Hand-coded entries, batch 3 (New York State programs).",
+  "reference_sources": [
+    {
+      "ref_id": "OSC-CEF-2024",
+      "title": "NYS Office of the State Comptroller, New York State's Clean Energy Fund (July 2024)",
+      "url": "https://osc.ny.gov/files/reports/pdf/clean-energy-fund.pdf",
+      "accessed": "2026-10-10",
+      "note": "Reports Clean Energy Fund progress as acquired versus committed savings (23.9 TBtu acquired through Dec. 2023, 45 percent of the 2025 goal). Does not assess whether reported savings are estimated or independently verified."
+    }
+  ],
+  "programs": [
+    {
+      "ledger_id": "VGL-NY-001",
+      "program_name": "Clean Energy Communities",
+      "level": "state",
+      "agency": "NYSERDA",
+      "aln": "",
+      "authority": "NYS PSC Clean Energy Fund Order, Case 14-M-0094",
+      "vehicle": "action-based grants to municipalities",
+      "municipal_role": "direct recipient",
+      "asset_classes": "buildings; street lighting; benchmarking; clean heating; fleet",
+      "status": "active",
+      "status_note": "",
+      "R": 4,
+      "C": 2,
+      "A": 1,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 4,
+          "source": "Opinion Dynamics for NYSERDA, Clean Energy Communities Impact Evaluation Executive Summary, PY2019 to 2023 (dated Nov. 2025, posted Mar. 2026)",
+          "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/PPSER/Program-Evaluation/Clean-Energy-CommunitiesImpactEvaluation-ExecutiveSummary-March-2026.pdf",
+          "locator": "methods and results sections",
+          "accessed": "2026-10-10",
+          "note": "Third-party impact evaluation of three High Impact Actions; desk reviews and verified per-unit savings; reports verified gross kWh, fuel and CO2e impacts.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 2,
+          "source": "NYSERDA, Clean Energy Communities Scorecard",
+          "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Clean-Energy-Communities/Scorecard.pdf",
+          "locator": "whole document",
+          "accessed": "2026-10-10",
+          "note": "Public scorecard of completed actions by community (outputs); evaluated impacts published only in aggregate. Scorecard contents to be confirmed.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 1,
+          "source": "CEC Impact Evaluation Executive Summary",
+          "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/PPSER/Program-Evaluation/Clean-Energy-CommunitiesImpactEvaluation-ExecutiveSummary-March-2026.pdf",
+          "locator": "methods",
+          "accessed": "2026-10-10",
+          "note": "Verified gross impacts only; no billing analysis, comparison group or net-to-gross attribution reported.",
+          "confidence": "high",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-NY-002",
+      "program_name": "Real Time Energy Management",
+      "level": "state",
+      "agency": "NYSERDA",
+      "aln": "",
+      "authority": "NYS PSC Clean Energy Fund Order, Case 14-M-0094",
+      "vehicle": "cost-share incentive",
+      "municipal_role": "direct participant (government facilities and K-12 schools among participants)",
+      "asset_classes": "buildings; energy management systems",
+      "status": "active",
+      "status_note": "",
+      "R": 4,
+      "C": 1,
+      "A": 2,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 4,
+          "source": "DNV for NYSERDA, Real Time Energy Management Impact Evaluation Final Report (Oct. 2021)",
+          "url": "https://www.nyserda.ny.gov/-/media/Migrated/Files/Publications/PPSER/Program-Evaluation/NYSERDA-2017-Q12020-Real-Time-Energy-Management-Impact-Final-Report.pdf",
+          "locator": "methods; results",
+          "accessed": "2026-10-10",
+          "note": "Independent evaluation using IPMVP Option C whole-building billing analysis for 39 of 42 sampled sites. Gross realization rates: electric 20 percent, fossil 42 percent, combined 24 percent; evaluated savings about 3 percent of baseline use. Government facilities were 17 of 293 projects and K-12 schools 14.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 1,
+          "source": "Same report",
+          "url": "https://www.nyserda.ny.gov/-/media/Migrated/Files/Publications/PPSER/Program-Evaluation/NYSERDA-2017-Q12020-Real-Time-Energy-Management-Impact-Final-Report.pdf",
+          "locator": "whole report",
+          "accessed": "2026-10-10",
+          "note": "Evaluated results public at program level; no public project-level outcome data located.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 2,
+          "source": "Same report",
+          "url": "https://www.nyserda.ny.gov/-/media/Migrated/Files/Publications/PPSER/Program-Evaluation/NYSERDA-2017-Q12020-Real-Time-Energy-Management-Impact-Final-Report.pdf",
+          "locator": "methods",
+          "accessed": "2026-10-10",
+          "note": "Weather-normalized pre and post billing analysis; no comparison group; net-to-gross not addressed.",
+          "confidence": "high",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-NY-003",
+      "program_name": "Clean Green Schools Initiative",
+      "level": "state",
+      "agency": "NYSERDA",
+      "aln": "",
+      "authority": "NYS PSC Clean Energy Fund; PON 4924",
+      "vehicle": "competitive grant",
+      "municipal_role": "direct recipient (priority P-12 districts; schools and BOCES in disadvantaged communities)",
+      "asset_classes": "school buildings; heat pumps; electrification",
+      "status": "closed",
+      "status_note": "Program page states the initiative is currently closed; more than $82 million awarded.",
+      "R": 2,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "NYSERDA, Clean Green Schools Initiative program page",
+          "url": "https://www.nyserda.ny.gov/All-Programs/Clean-Green-Schools-Initiative",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "Program page does not state reporting rules; coded R2 provisionally on the expectation that Clean Energy Fund projects report estimated savings. Confirm in PON 4924.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same",
+          "url": "https://www.nyserda.ny.gov/All-Programs/Clean-Green-Schools-Initiative",
+          "locator": "awardee list link",
+          "accessed": "2026-10-10",
+          "note": "Awardee list published; no results data located.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://www.nyserda.ny.gov/All-Programs/Clean-Green-Schools-Initiative",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "No baseline requirement identified.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-NY-004",
+      "program_name": "Charge Ready NY 2.0",
+      "level": "state",
+      "agency": "NYSERDA",
+      "aln": "",
+      "authority": "NYSERDA program rules",
+      "vehicle": "per-port rebate",
+      "municipal_role": "direct participant (public sites)",
+      "asset_classes": "EV charging (Level 2)",
+      "status": "active",
+      "status_note": "",
+      "R": 1,
+      "C": 2,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "Data.gov, Charge Ready NY Programs: Beginning 2018 dataset record",
+          "url": "https://catalog.data.gov/dataset/charge-ready-ny-programs-beginning-2018",
+          "locator": "dataset description",
+          "accessed": "2026-10-10",
+          "note": "Program records installed projects. Whether participants must report charger usage data is not confirmed.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 2,
+          "source": "Same",
+          "url": "https://catalog.data.gov/dataset/charge-ready-ny-programs-beginning-2018",
+          "locator": "formats and dates",
+          "accessed": "2026-10-10",
+          "note": "Installed-project records on data.ny.gov in CSV, JSON and GeoJSON; first published 2026-06-18, updated 2026-09-29. No license stated in the catalog record.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://catalog.data.gov/dataset/charge-ready-ny-programs-beginning-2018",
+          "locator": "dataset description",
+          "accessed": "2026-10-10",
+          "note": "No outcome measure.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-NY-005",
+      "program_name": "Climate Smart Communities Grant Program",
+      "level": "state",
+      "agency": "NYS Department of Environmental Conservation",
+      "aln": "",
+      "authority": "Environmental Protection Fund, ECL 54-1501 et seq.",
+      "vehicle": "50/50 matching grant",
+      "municipal_role": "direct recipient",
+      "asset_classes": "GHG mitigation outside the power sector; adaptation; planning",
+      "status": "active",
+      "status_note": "2026 round closed July 31, 2026.",
+      "R": 1,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "NYSDEC, Grants for Climate Action page",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "CSC Grant section",
+          "accessed": "2026-10-10",
+          "note": "Program page defers reporting rules to the RFA and Attachment A-2 terms; coded R1 provisionally. Confirm whether mitigation projects must estimate or report GHG reductions.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "award lists 2016 to 2025",
+          "accessed": "2026-10-10",
+          "note": "Award lists published; no results data located.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "CSC Grant section",
+          "accessed": "2026-10-10",
+          "note": "No baseline requirement identified.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-NY-006",
+      "program_name": "Municipal Zero-Emission Vehicle Rebate Program",
+      "level": "state",
+      "agency": "NYS Department of Environmental Conservation",
+      "aln": "",
+      "authority": "ECL Article 54, Title 15; 6 NYCRR Part 492 (Environmental Protection Fund)",
+      "vehicle": "rebate",
+      "municipal_role": "direct recipient (counties, cities, towns, villages)",
+      "asset_classes": "municipal fleet",
+      "status": "active",
+      "status_note": "Most recent application window closed Feb. 27, 2026.",
+      "R": 2,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "NYSDEC, Municipal ZEV Rebate Program request for applications (Oct. 2025)",
+          "url": "https://dec.ny.gov/sites/default/files/2025-10/zevcvrfa.pdf",
+          "locator": "Program Description; Mitigation and Monitoring Reporting",
+          "accessed": "2026-10-11",
+          "note": "Funded by the Environmental Protection Fund under ECL Article 54, Title 15 and 6 NYCRR Part 492. Municipalities must provide monitoring information, or allow DEC to collect it, that documents or estimates greenhouse gas reductions from the vehicle project. Vehicles must stay in service for a three-year minimum useful life.",
+          "confidence": "high",
+          "needs_verify": false
+        },
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "NYSDEC, Grants for Climate Action page",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "Municipal ZEV Programs section",
+          "accessed": "2026-10-10",
+          "note": "Rebate for purchase or 36-month lease of eligible ZEVs; post-award reporting not described on the page. Superseded for R by the program description below.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "ZEV awards list 2016 to 2025",
+          "accessed": "2026-10-10",
+          "note": "Award list only.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "Municipal ZEV Programs section",
+          "accessed": "2026-10-10",
+          "note": "No baseline requirement identified.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-NY-007",
+      "program_name": "Municipal Zero-Emission Vehicle Infrastructure Grant Program",
+      "level": "state",
+      "agency": "NYS Department of Environmental Conservation",
+      "aln": "",
+      "authority": "Not identified in reviewed sources",
+      "vehicle": "competitive grant",
+      "municipal_role": "direct recipient",
+      "asset_classes": "EV charging (Level 2, DC fast); hydrogen fueling",
+      "status": "active",
+      "status_note": "Most recent application window closed Feb. 27, 2026.",
+      "R": 1,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "NYSDEC, Grants for Climate Action page",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "Municipal ZEV Programs section",
+          "accessed": "2026-10-10",
+          "note": "Links an example operations, maintenance and mitigation monitoring plan; whether usage data must be reported is not stated.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "ZEV awards list",
+          "accessed": "2026-10-10",
+          "note": "Award list only.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://dec.ny.gov/environmental-protection/climate-change/resources-for-local-governments/grants-for-climate-action",
+          "locator": "Municipal ZEV Programs section",
+          "accessed": "2026-10-10",
+          "note": "No baseline requirement identified.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-NY-008",
+      "program_name": "Smart Street Lighting NY",
+      "level": "state",
+      "agency": "New York Power Authority",
+      "aln": "",
+      "authority": "Not identified in reviewed sources",
+      "vehicle": "turnkey project with financing",
+      "municipal_role": "direct customer",
+      "asset_classes": "street lighting",
+      "status": "active",
+      "status_note": "Goal of 500,000 LED streetlights reported met in Aug. 2023.",
+      "R": 2,
+      "C": 2,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 2,
+          "source": "NYPA press release, Amsterdam LED project (Nov. 5, 2024)",
+          "url": "https://www.nypa.gov/News/Press-Releases/2024/20241105-led",
+          "locator": "whole release",
+          "accessed": "2026-10-10",
+          "note": "Program communicates projected annual cost and emissions savings per project and a 3 percent demand reduction goal; no stated requirement for metered verification. Program rules not reviewed.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 2,
+          "source": "Same",
+          "url": "https://www.nypa.gov/News/Press-Releases/2024/20241105-led",
+          "locator": "whole release",
+          "accessed": "2026-10-10",
+          "note": "Statewide fixture count and project-level announcements are public; savings figures are projections, not realized results.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://www.nypa.gov/News/Press-Releases/2024/20241105-led",
+          "locator": "whole release",
+          "accessed": "2026-10-10",
+          "note": "No published baseline or measured post-installation consumption.",
+          "confidence": "medium",
+          "needs_verify": false
+        }
+      ]
+    },
+    {
+      "ledger_id": "VGL-NY-009",
+      "program_name": "Green Innovation Grant Program",
+      "level": "state",
+      "agency": "NYS Environmental Facilities Corporation",
+      "aln": "",
+      "authority": "Clean Water State Revolving Fund",
+      "vehicle": "competitive grant",
+      "municipal_role": "direct recipient",
+      "asset_classes": "green stormwater infrastructure; energy efficiency; water efficiency",
+      "status": "active",
+      "status_note": "2026 awards of $16.8 million announced Sept. 21.",
+      "R": 1,
+      "C": 0,
+      "A": 0,
+      "evidence": [
+        {
+          "dim": "R",
+          "code": 1,
+          "source": "NYS EFC, Green Innovation Grant Program page",
+          "url": "https://efc.ny.gov/gigp",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "Funded through the CWSRF; page does not state benefit estimation or reporting rules. Confirm in application instructions.",
+          "confidence": "low",
+          "needs_verify": false
+        },
+        {
+          "dim": "C",
+          "code": 0,
+          "source": "Same",
+          "url": "https://efc.ny.gov/gigp",
+          "locator": "2026 awards link",
+          "accessed": "2026-10-10",
+          "note": "Award announcements only.",
+          "confidence": "medium",
+          "needs_verify": false
+        },
+        {
+          "dim": "A",
+          "code": 0,
+          "source": "Same",
+          "url": "https://efc.ny.gov/gigp",
+          "locator": "whole page",
+          "accessed": "2026-10-10",
+          "note": "No baseline requirement identified.",
+          "confidence": "low",
+          "needs_verify": false
+        }
+      ]
+    }
+  ]
+}
