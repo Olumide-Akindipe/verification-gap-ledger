@@ -61,6 +61,6 @@ To cite the Ledger across versions, use the concept DOI: https://doi.org/10.5281
 
 ## Versions
 
-0.1 (Nov 2026), 0.5 (Feb 2027), 1.0 (May 2027), 2.0 (Dec 2027). See `docs/NEXT_STEPS.md` and `CHANGELOG.md`.
+0.1 (Oct 2026), 0.5 (Feb 2027), 1.0 (May 2027), 2.0 (Dec 2027). See `docs/NEXT_STEPS.md` and `CHANGELOG.md`.
 
 
