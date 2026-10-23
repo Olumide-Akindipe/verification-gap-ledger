@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method | Verification Gap Ledger</title>
+<meta name="description" content="Open register of federal and New York State programs funding municipal energy and infrastructure, rated on required verification, public results, and attributability.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <a class="mark" href="index.html">Verification Gap Ledger</a>
+  <nav aria-label="Site">
+    <a href="index.html">Programs</a>
+    <a href="method.html">Method</a>
+    <a href="method.html#data">Data and citation</a>
+    <a href="https://github.com/Olumide-Akindipe/verification-gap-ledger">Source code</a>
+  </nav>
+</header>
+<main id="main">
+
+<article class="prose">
+  <h1>How the Ledger rates programs</h1>
+  <p>Each program receives one rating on each of three scales, taken from the program's statute, regulations, award terms, funding notices, guidance, official data catalogs and evaluations. Every rating cites the document and section it rests on, with the date it was read. The full rules are in the <a href="https://github.com/Olumide-Akindipe/verification-gap-ledger/blob/main/docs/CODING_PROTOCOL.md">coding protocol</a> and every column is defined in the <a href="https://github.com/Olumide-Akindipe/verification-gap-ledger/blob/main/docs/CODEBOOK.md">codebook</a>.</p>
+
+  <h2>Required verification (R)</h2>
+  <p>What recipients must report about results. This rates the obligation, not what happens in practice.</p>
+  <table class="scale"><tbody><tr><th scope='row'>0</th><td><span class="steps" role="img" aria-label="level 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td><td>Financial only</td></tr><tr><th scope='row'>1</th><td><span class="steps" role="img" aria-label="level 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td><td>Outputs</td></tr><tr><th scope='row'>2</th><td><span class="steps" role="img" aria-label="level 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td><td>Estimated outcomes</td></tr><tr><th scope='row'>3</th><td><span class="steps" role="img" aria-label="level 3 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="off"></i></span></td><td>Measured outcomes against a baseline</td></tr><tr><th scope='row'>4</th><td><span class="steps" role="img" aria-label="level 4 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td>Independent verification</td></tr></tbody></table>
+
+  <h2>Public results (C)</h2>
+  <p>What anyone can see. Award announcements and recipient lists are not results.</p>
+  <table class="scale"><tbody><tr><th scope='row'>0</th><td><span class="steps" role="img" aria-label="level 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td><td>No public results</td></tr><tr><th scope='row'>1</th><td><span class="steps" role="img" aria-label="level 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td><td>Aggregate only</td></tr><tr><th scope='row'>2</th><td><span class="steps" role="img" aria-label="level 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td><td>Project-level outputs</td></tr><tr><th scope='row'>3</th><td><span class="steps" role="img" aria-label="level 3 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="off"></i></span></td><td>Project-level outcomes</td></tr><tr><th scope='row'>4</th><td><span class="steps" role="img" aria-label="level 4 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td>Open machine-readable project data</td></tr></tbody></table>
+
+  <h2>Attributability (A)</h2>
+  <p>Whether the required or published data could let an outside party link outcomes to the funding.</p>
+  <table class="scale"><tbody><tr><th scope='row'>0</th><td><span class="steps" role="img" aria-label="level 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td><td>No baseline</td></tr><tr><th scope='row'>1</th><td><span class="steps" role="img" aria-label="level 1 of 3"><i class="on"></i><i class="off"></i><i class="off"></i></span></td><td>Baseline or modeled counterfactual only</td></tr><tr><th scope='row'>2</th><td><span class="steps" role="img" aria-label="level 2 of 3"><i class="on"></i><i class="on"></i><i class="off"></i></span></td><td>Measured before and after</td></tr><tr><th scope='row'>3</th><td><span class="steps" role="img" aria-label="level 3 of 3"><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td>Comparison group or impact evaluation</td></tr></tbody></table>
+
+  <h2>What the Ledger cannot tell you</h2>
+  <ul>
+    <li>Public results measure publication, not collection. Agencies may hold outcome data they do not release.</li>
+    <li>Version 0.1.0 covers 24 programs chosen to span agencies, funding types and assets. It is not a complete or random sample.</li>
+    <li>The scales are ordinal. A gap of 2 is not twice a gap of 1.</li>
+    <li>The Ledger rates program design, not whether any project saved energy.</li>
+  </ul>
+  <p>The full list is in <a href="https://github.com/Olumide-Akindipe/verification-gap-ledger/blob/main/docs/LIMITATIONS.md">LIMITATIONS.md</a>.</p>
+
+  <h2 id="data">Data and citation</h2>
+  <p>Download the tables for this version:</p>
+  <ul>
+    <li><a href="data/vgl_programs.csv">vgl_programs.csv</a>: one row per program with all ratings</li>
+    <li><a href="data/vgl_evidence.csv">vgl_evidence.csv</a>: one row per piece of evidence, with source links</li>
+    <li><a href="data/vgl_reference_sources.csv">vgl_reference_sources.csv</a>: sources that apply across programs</li>
+  </ul>
+  <p>Cite this version: Akindipe, S. O. (2026). <em>Verification Gap Ledger</em> (Version 0.1.0) [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.23302898">https://doi.org/10.5281/zenodo.23302898</a></p>
+  <p>To cite the Ledger across versions, use the concept DOI: <a href="https://doi.org/10.5281/zenodo.23302897">https://doi.org/10.5281/zenodo.23302897</a></p>
+  <p>Releases follow a published schedule: 0.5 in February 2027, 1.0 in May 2027 and 2.0 in December 2027. Changes between versions are listed in the <a href="https://github.com/Olumide-Akindipe/verification-gap-ledger/blob/main/CHANGELOG.md">changelog</a>.</p>
+</article>
+
+</main>
+<footer class="site">
+  <p>Version 0.1.0 &nbsp;|&nbsp; Maintained by Stephen Olumide Akindipe, <a href="https://orcid.org/0000-0002-1846-9662">ORCID 0000-0002-1846-9662</a> &nbsp;|&nbsp; Data and documents CC BY 4.0, code MIT &nbsp;|&nbsp; <a href="https://doi.org/10.5281/zenodo.23302897">doi.org/10.5281/zenodo.23302897</a></p>
+</footer>
+</body>
+</html>
