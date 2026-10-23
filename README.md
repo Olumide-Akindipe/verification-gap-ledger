@@ -6,6 +6,8 @@
 
 > The Verification Gap Ledger (VGL) is an open versioned register containing federal and New York State programs targeted towards funding municipal energy and infrastructure. For each program, the VGL records three distinct parameters: what verification of results is required (R), what results are actually made publicly available (C), and whether an external party could attribute outcomes to the funding (A). Every rating is directly linked to the exact source document and section.
 
+**Browse and search the Ledger online:** https://olumide-akindipe.github.io/verification-gap-ledger/
+
 ## Why
 
 Municipal energy programs offer the benefits of energy, cost, and emissions savings. However, these programs differ widely in the proof of results they require and in what they publish. There is no single public record of those differences. The Ledger provides one, allowing municipal officials to evaluate programs based on the evidence they produce, and enabling program auditors and researchers to see where verification is thin.
@@ -40,6 +42,7 @@ Requires Python 3.9 or later and matplotlib (`pip install matplotlib python-docx
 python code/01_build.py      # tables, QA report, stats.json
 python code/02_figures.py    # Figure 1 (add --final after verification)
 node code/03_report.js       # technical report (add --final after verification; needs: npm install docx)
+python code/04_site.py       # browse-and-search website, written to site/
 ```
 
 The coded entries live in `data/interim/coded_batch*.json`. Edit those, never the processed CSVs.

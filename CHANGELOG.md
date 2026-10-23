@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added a public browse-and-search website (https://olumide-akindipe.github.io/verification-gap-ledger/), generated from the released data by code/04_site.py. No data changes.
 - Added Zenodo DOIs to README, CITATION.cff and technical report (no data changes).
 
 ## 0.1.0 - 2026-10-11 (DOI 10.5281/zenodo.23302898)
