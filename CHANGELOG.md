@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added code/05_preprint_stats.py and paper/stats_preprint.json: reproduces the preprint's mean codes, Kendall tau-b associations, Tables 3 to 5 (federal and state split, confidence, sensitivity to low confidence codes) and the illustrative disclosure scenario from vgl_programs.csv. No data changes; stats.json unchanged.
 - Added a public browse-and-search website (https://olumide-akindipe.github.io/verification-gap-ledger/), generated from the released data by code/04_site.py. No data changes.
 - Added Zenodo DOIs to README, CITATION.cff and technical report (no data changes).
 
