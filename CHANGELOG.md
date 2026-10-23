@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added the two-column preprint (paper/preprint/vgl_preprint.tex and PDF) with nine Power BI style figures, and code/06_preprint_assets.py, which generates every figure, data table, number macro and the program-source bibliography from the released data. No data changes.
+- 05_preprint_stats.py now stores p-values to four decimals (R and C: p = 0.2951, reported as 0.30).
 - Added code/05_preprint_stats.py and paper/stats_preprint.json: reproduces the preprint's mean codes, Kendall tau-b associations, Tables 3 to 5 (federal and state split, confidence, sensitivity to low confidence codes) and the illustrative disclosure scenario from vgl_programs.csv. No data changes; stats.json unchanged.
 - Added a public browse-and-search website (https://olumide-akindipe.github.io/verification-gap-ledger/), generated from the released data by code/04_site.py. No data changes.
 - Added Zenodo DOIs to README, CITATION.cff and technical report (no data changes).
