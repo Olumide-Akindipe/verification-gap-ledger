@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verification Gap Ledger</title>
+<meta name="description" content="Open register of federal and New York State programs funding municipal energy and infrastructure, rated on required verification, public results, and attributability.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <a class="mark" href="index.html">Verification Gap Ledger</a>
+  <nav aria-label="Site">
+    <a href="index.html">Programs</a>
+    <a href="method.html">Method</a>
+    <a href="method.html#data">Data and citation</a>
+    <a href="https://github.com/Olumide-Akindipe/verification-gap-ledger">Source code</a>
+  </nav>
+</header>
+<main id="main">
+
+<section class="intro">
+  <h1>What proof do public energy programs ask for, and what do they show?</h1>
+  <p class="lede">The Ledger rates 24 federal and New York State programs that fund municipal energy and infrastructure on three questions. Every rating links to the document and section it comes from.</p>
+  <dl class="key">
+    <div><dt>R</dt><dd><strong>Required verification.</strong> From financial reports only (0) to independent verification (4).</dd></div>
+    <div><dt>C</dt><dd><strong>Public results.</strong> From nothing published (0) to open project-level data (4).</dd></div>
+    <div><dt>A</dt><dd><strong>Attributability.</strong> From no baseline (0) to a comparison group or impact evaluation (3).</dd></div>
+  </dl>
+  <p class="finding">In version 0.1.0, 11 of 24 programs require no more than output reporting. Of the 5 that require measured or independently verified outcomes, none publish project-level outcome data.</p>
+</section>
+
+<section class="browse" aria-labelledby="browse-h">
+  <h2 id="browse-h">Programs</h2>
+  <form class="filters" role="search" onsubmit="return false">
+    <label class="q">Search<input id="q" type="search" placeholder="Program, agency, asset type or ALN" autocomplete="off"></label>
+    <label>Level<select id="f-level"><option value="">All</option><option value="federal">Federal</option><option value="state">New York State</option></select></label>
+    <label>Agency<select id="f-agency"><option value="">All</option><option value="Federal Emergency Management Agency">Federal Emergency Management Agency</option><option value="NYS Department of Environmental Conservation">NYS Department of Environmental Conservation</option><option value="NYS Environmental Facilities Corporation">NYS Environmental Facilities Corporation</option><option value="NYSERDA">NYSERDA</option><option value="New York Power Authority">New York Power Authority</option><option value="U.S. Department of Agriculture, Rural Development">U.S. Department of Agriculture, Rural Development</option><option value="U.S. Department of Energy">U.S. Department of Energy</option><option value="U.S. Department of Housing and Urban Development">U.S. Department of Housing and Urban Development</option><option value="U.S. Department of Transportation, FHWA">U.S. Department of Transportation, FHWA</option><option value="U.S. Department of Transportation, FHWA and FTA">U.S. Department of Transportation, FHWA and FTA</option><option value="U.S. Department of Transportation, FTA">U.S. Department of Transportation, FTA</option><option value="U.S. Department of the Treasury, Internal Revenue Service">U.S. Department of the Treasury, Internal Revenue Service</option><option value="U.S. Environmental Protection Agency">U.S. Environmental Protection Agency</option></select></label>
+    <label>Status<select id="f-status"><option value="">All</option><option value="active">Active</option><option value="active_modified">Active, modified</option><option value="closed">Closed</option><option value="terminated_contested">Terminated, contested in court</option></select></label>
+    <label class="check"><input id="f-gap" type="checkbox"> Rules require more than is published</label>
+  </form>
+  <p class="count" id="count" aria-live="polite">Showing 24 of 24 programs</p>
+  <div class="tablewrap">
+  <table class="programs" id="programs">
+    <thead><tr>
+      <th scope="col"><button type="button" data-sort="name">Program</button></th>
+      <th scope="col"><button type="button" data-sort="level">Level</button></th>
+      <th scope="col" class="score"><button type="button" data-sort="r">R</button></th>
+      <th scope="col" class="score"><button type="button" data-sort="c">C</button></th>
+      <th scope="col" class="score"><button type="button" data-sort="a">A</button></th>
+      <th scope="col">Status</th>
+    </tr></thead>
+    <tbody>
+<tr data-level="federal" data-agency="U.S. Department of Energy" data-status="active" data-r="2" data-c="0" data-a="0" data-gap="1" data-search="vgl-f-001 energy efficiency and conservation block grant program (iija) u.s. department of energy buildings; street lighting; renewable energy; transportation 81.128">
+  <td class="name"><a href="programs/VGL-F-001.html">Energy Efficiency and Conservation Block Grant Program (IIJA)</a><span class="sub">U.S. Department of Energy | ALN 81.128</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">2</span><span class="steps gap" role="img" aria-label="Required verification 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Department of Energy" data-status="active" data-r="3" data-c="0" data-a="2" data-gap="1" data-search="vgl-f-002 grid resilience state and tribal formula grants (iija 40101(d)) u.s. department of energy electric grid; resilience 81.254">
+  <td class="name"><a href="programs/VGL-F-002.html">Grid Resilience State and Tribal Formula Grants (IIJA 40101(d))</a><span class="sub">U.S. Department of Energy | ALN 81.254</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">3</span><span class="steps gap" role="img" aria-label="Required verification 3 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Attributability 2 of 3"><i class="on"></i><i class="on"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Environmental Protection Agency" data-status="active" data-r="1" data-c="2" data-a="0" data-gap="0" data-search="vgl-f-003 clean water state revolving fund u.s. environmental protection agency wastewater; stormwater; water and energy efficiency (green project reserve) 66.458">
+  <td class="name"><a href="programs/VGL-F-003.html">Clean Water State Revolving Fund</a><span class="sub">U.S. Environmental Protection Agency | ALN 66.458</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Public results 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Environmental Protection Agency" data-status="active" data-r="1" data-c="2" data-a="0" data-gap="0" data-search="vgl-f-004 drinking water state revolving fund u.s. environmental protection agency drinking water 66.468">
+  <td class="name"><a href="programs/VGL-F-004.html">Drinking Water State Revolving Fund</a><span class="sub">U.S. Environmental Protection Agency | ALN 66.468</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Public results 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Environmental Protection Agency" data-status="terminated_contested" data-r="2" data-c="0" data-a="0" data-gap="1" data-search="vgl-f-005 solar for all (greenhouse gas reduction fund) u.s. environmental protection agency distributed solar; storage 66.959">
+  <td class="name"><a href="programs/VGL-F-005.html">Solar for All (Greenhouse Gas Reduction Fund)</a><span class="sub">U.S. Environmental Protection Agency | ALN 66.959</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">2</span><span class="steps gap" role="img" aria-label="Required verification 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Terminated, contested in court</td>
+</tr><tr data-level="federal" data-agency="U.S. Department of Transportation, FHWA and FTA" data-status="active" data-r="2" data-c="3" data-a="1" data-gap="0" data-search="vgl-f-006 congestion mitigation and air quality improvement program u.s. department of transportation, fhwa and fta transportation; fleet; traffic signals 20.205">
+  <td class="name"><a href="programs/VGL-F-006.html">Congestion Mitigation and Air Quality Improvement Program</a><span class="sub">U.S. Department of Transportation, FHWA and FTA | ALN 20.205</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Required verification 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">3</span><span class="steps" role="img" aria-label="Public results 3 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Attributability 1 of 3"><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Department of Transportation, FHWA" data-status="active_modified" data-r="3" data-c="1" data-a="1" data-gap="1" data-search="vgl-f-007 national electric vehicle infrastructure formula program u.s. department of transportation, fhwa ev charging 20.205">
+  <td class="name"><a href="programs/VGL-F-007.html">National Electric Vehicle Infrastructure Formula Program</a><span class="sub">U.S. Department of Transportation, FHWA | ALN 20.205</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">3</span><span class="steps gap" role="img" aria-label="Required verification 3 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Public results 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Attributability 1 of 3"><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active, modified</td>
+</tr><tr data-level="federal" data-agency="U.S. Department of Transportation, FHWA" data-status="active" data-r="3" data-c="1" data-a="1" data-gap="1" data-search="vgl-f-008 charging and fueling infrastructure discretionary grant program u.s. department of transportation, fhwa ev charging; alternative fuels 20.205">
+  <td class="name"><a href="programs/VGL-F-008.html">Charging and Fueling Infrastructure Discretionary Grant Program</a><span class="sub">U.S. Department of Transportation, FHWA | ALN 20.205</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">3</span><span class="steps gap" role="img" aria-label="Required verification 3 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Public results 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Attributability 1 of 3"><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Department of the Treasury, Internal Revenue Service" data-status="active_modified" data-r="0" data-c="0" data-a="0" data-gap="0" data-search="vgl-f-009 elective pay for clean energy tax credits (ira sec. 6417) u.s. department of the treasury, internal revenue service solar; storage; ev charging; clean vehicles; geothermal ">
+  <td class="name"><a href="programs/VGL-F-009.html">Elective Pay for clean energy tax credits (IRA sec. 6417)</a><span class="sub">U.S. Department of the Treasury, Internal Revenue Service</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Required verification 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active, modified</td>
+</tr><tr data-level="federal" data-agency="U.S. Department of Transportation, FTA" data-status="active" data-r="1" data-c="1" data-a="0" data-gap="0" data-search="vgl-f-010 low or no emission vehicle program u.s. department of transportation, fta transit fleet; charging and fueling facilities 20.526">
+  <td class="name"><a href="programs/VGL-F-010.html">Low or No Emission Vehicle Program</a><span class="sub">U.S. Department of Transportation, FTA | ALN 20.526</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Public results 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Environmental Protection Agency" data-status="active" data-r="1" data-c="0" data-a="0" data-gap="1" data-search="vgl-f-011 clean school bus program u.s. environmental protection agency school bus fleet; charging 66.045">
+  <td class="name"><a href="programs/VGL-F-011.html">Clean School Bus Program</a><span class="sub">U.S. Environmental Protection Agency | ALN 66.045</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">1</span><span class="steps gap" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="Federal Emergency Management Agency" data-status="terminated_contested" data-r="2" data-c="4" data-a="1" data-gap="0" data-search="vgl-f-012 building resilient infrastructure and communities federal emergency management agency resilience; utilities; public facilities; water 97.047">
+  <td class="name"><a href="programs/VGL-F-012.html">Building Resilient Infrastructure and Communities</a><span class="sub">Federal Emergency Management Agency | ALN 97.047</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Required verification 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">4</span><span class="steps" role="img" aria-label="Public results 4 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Attributability 1 of 3"><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Terminated, contested in court</td>
+</tr><tr data-level="federal" data-agency="U.S. Department of Housing and Urban Development" data-status="active" data-r="1" data-c="1" data-a="0" data-gap="0" data-search="vgl-f-013 community development block grant, entitlement communities u.s. department of housing and urban development public facilities; infrastructure; housing 14.218">
+  <td class="name"><a href="programs/VGL-F-013.html">Community Development Block Grant, Entitlement Communities</a><span class="sub">U.S. Department of Housing and Urban Development | ALN 14.218</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Public results 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Department of Agriculture, Rural Development" data-status="active" data-r="0" data-c="0" data-a="0" data-gap="0" data-search="vgl-f-014 water and waste disposal loan and grant program u.s. department of agriculture, rural development drinking water; wastewater; stormwater; solid waste 10.760">
+  <td class="name"><a href="programs/VGL-F-014.html">Water and Waste Disposal Loan and Grant Program</a><span class="sub">U.S. Department of Agriculture, Rural Development | ALN 10.760</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Required verification 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="federal" data-agency="U.S. Environmental Protection Agency" data-status="active" data-r="2" data-c="0" data-a="1" data-gap="1" data-search="vgl-f-015 climate pollution reduction grants, implementation u.s. environmental protection agency buildings; transportation; energy; waste 66.046">
+  <td class="name"><a href="programs/VGL-F-015.html">Climate Pollution Reduction Grants, Implementation</a><span class="sub">U.S. Environmental Protection Agency | ALN 66.046</span></td>
+  <td class="lvl">Federal</td>
+  <td class="score"><span class="num">2</span><span class="steps gap" role="img" aria-label="Required verification 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Attributability 1 of 3"><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="state" data-agency="NYSERDA" data-status="active" data-r="4" data-c="2" data-a="1" data-gap="1" data-search="vgl-ny-001 clean energy communities nyserda buildings; street lighting; benchmarking; clean heating; fleet ">
+  <td class="name"><a href="programs/VGL-NY-001.html">Clean Energy Communities</a><span class="sub">NYSERDA</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">4</span><span class="steps gap" role="img" aria-label="Required verification 4 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Public results 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Attributability 1 of 3"><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="state" data-agency="NYSERDA" data-status="active" data-r="4" data-c="1" data-a="2" data-gap="1" data-search="vgl-ny-002 real time energy management nyserda buildings; energy management systems ">
+  <td class="name"><a href="programs/VGL-NY-002.html">Real Time Energy Management</a><span class="sub">NYSERDA</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">4</span><span class="steps gap" role="img" aria-label="Required verification 4 of 4"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Public results 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Attributability 2 of 3"><i class="on"></i><i class="on"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="state" data-agency="NYSERDA" data-status="closed" data-r="2" data-c="0" data-a="0" data-gap="1" data-search="vgl-ny-003 clean green schools initiative nyserda school buildings; heat pumps; electrification ">
+  <td class="name"><a href="programs/VGL-NY-003.html">Clean Green Schools Initiative</a><span class="sub">NYSERDA</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">2</span><span class="steps gap" role="img" aria-label="Required verification 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Closed</td>
+</tr><tr data-level="state" data-agency="NYSERDA" data-status="active" data-r="1" data-c="2" data-a="0" data-gap="0" data-search="vgl-ny-004 charge ready ny 2.0 nyserda ev charging (level 2) ">
+  <td class="name"><a href="programs/VGL-NY-004.html">Charge Ready NY 2.0</a><span class="sub">NYSERDA</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">1</span><span class="steps" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Public results 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="state" data-agency="NYS Department of Environmental Conservation" data-status="active" data-r="1" data-c="0" data-a="0" data-gap="1" data-search="vgl-ny-005 climate smart communities grant program nys department of environmental conservation ghg mitigation outside the power sector; adaptation; planning ">
+  <td class="name"><a href="programs/VGL-NY-005.html">Climate Smart Communities Grant Program</a><span class="sub">NYS Department of Environmental Conservation</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">1</span><span class="steps gap" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="state" data-agency="NYS Department of Environmental Conservation" data-status="active" data-r="2" data-c="0" data-a="0" data-gap="1" data-search="vgl-ny-006 municipal zero-emission vehicle rebate program nys department of environmental conservation municipal fleet ">
+  <td class="name"><a href="programs/VGL-NY-006.html">Municipal Zero-Emission Vehicle Rebate Program</a><span class="sub">NYS Department of Environmental Conservation</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">2</span><span class="steps gap" role="img" aria-label="Required verification 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="state" data-agency="NYS Department of Environmental Conservation" data-status="active" data-r="1" data-c="0" data-a="0" data-gap="1" data-search="vgl-ny-007 municipal zero-emission vehicle infrastructure grant program nys department of environmental conservation ev charging (level 2, dc fast); hydrogen fueling ">
+  <td class="name"><a href="programs/VGL-NY-007.html">Municipal Zero-Emission Vehicle Infrastructure Grant Program</a><span class="sub">NYS Department of Environmental Conservation</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">1</span><span class="steps gap" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="state" data-agency="New York Power Authority" data-status="active" data-r="2" data-c="2" data-a="0" data-gap="0" data-search="vgl-ny-008 smart street lighting ny new york power authority street lighting ">
+  <td class="name"><a href="programs/VGL-NY-008.html">Smart Street Lighting NY</a><span class="sub">New York Power Authority</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Required verification 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">2</span><span class="steps" role="img" aria-label="Public results 2 of 4"><i class="on"></i><i class="on"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr><tr data-level="state" data-agency="NYS Environmental Facilities Corporation" data-status="active" data-r="1" data-c="0" data-a="0" data-gap="1" data-search="vgl-ny-009 green innovation grant program nys environmental facilities corporation green stormwater infrastructure; energy efficiency; water efficiency ">
+  <td class="name"><a href="programs/VGL-NY-009.html">Green Innovation Grant Program</a><span class="sub">NYS Environmental Facilities Corporation</span></td>
+  <td class="lvl">New York State</td>
+  <td class="score"><span class="num">1</span><span class="steps gap" role="img" aria-label="Required verification 1 of 4"><i class="on"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Public results 0 of 4"><i class="off"></i><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="score"><span class="num">0</span><span class="steps" role="img" aria-label="Attributability 0 of 3"><i class="off"></i><i class="off"></i><i class="off"></i></span></td>
+  <td class="st">Active</td>
+</tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="empty" id="empty" hidden>No programs match these filters. Clear the search or set a filter back to All.</p>
+  <p class="legend"><span class="steps gap"><i class="on"></i><i class="off"></i></span> An ochre R bar marks a program whose rules require more verification than it publishes.</p>
+</section>
+<script src="assets/filter.js"></script>
+
+</main>
+<footer class="site">
+  <p>Version 0.1.0 &nbsp;|&nbsp; Maintained by Stephen Olumide Akindipe, <a href="https://orcid.org/0000-0002-1846-9662">ORCID 0000-0002-1846-9662</a> &nbsp;|&nbsp; Data and documents CC BY 4.0, code MIT &nbsp;|&nbsp; <a href="https://doi.org/10.5281/zenodo.23302897">doi.org/10.5281/zenodo.23302897</a></p>
+</footer>
+</body>
+</html>
