@@ -70,7 +70,7 @@ def shift_low(progs, step):
 
 def tau(progs, x, y):
     t, pval = kendalltau([p[x] for p in progs], [p[y] for p in progs], variant="b")
-    return {"tau_b": round(float(t), 2), "p": float(f"{pval:.3g}")}
+    return {"tau_b": round(float(t), 2), "p": round(float(pval), 4)}
 
 
 def main():

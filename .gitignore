@@ -3,3 +3,10 @@
 __pycache__/
 .DS_Store
 scratch/
+paper/preprint/*.aux
+paper/preprint/*.log
+paper/preprint/*.fls
+paper/preprint/*.fdb_latexmk
+paper/preprint/*.out
+paper/preprint/*.blg
+paper/preprint/build.log
