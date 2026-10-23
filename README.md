@@ -43,6 +43,7 @@ python code/01_build.py      # tables, QA report, stats.json
 python code/02_figures.py    # Figure 1 (add --final after verification)
 node code/03_report.js       # technical report (add --final after verification; needs: npm install docx)
 python code/04_site.py       # browse-and-search website, written to site/
+python code/05_preprint_stats.py  # preprint numbers not in stats.json (sections 5 and 6), written to paper/stats_preprint.json; needs scipy
 ```
 
 The coded entries live in `data/interim/coded_batch*.json`. Edit those, never the processed CSVs.
