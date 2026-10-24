@@ -8,7 +8,6 @@
 
 **Browse and search the Ledger online:** https://olumide-akindipe.github.io/verification-gap-ledger/
 
-**View and download preprint:** https://doi.org/10.5281/zenodo.23622181
 
 ## Why
 
