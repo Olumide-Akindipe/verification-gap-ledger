@@ -1,0 +1,36 @@
+{
+  "upload_type": "dataset",
+  "title": "Verification Gap Ledger",
+  "version": "0.1.1",
+  "description": "<p>The Verification Gap Ledger (VGL) is an open versioned register containing federal and New York State programs targeted towards funding municipal energy and infrastructure. For each program, the VGL records three distinct parameters: what verification of results is required (R), what results are actually made publicly available (C), and whether an external party could attribute outcomes to the funding (A). Every rating is directly linked to the exact source document and section.</p><p>Release 0.1.1 adds analysis code and documents. The data tables and stats.json are byte-identical to 0.1.0 (24 programs, 80 evidence items).</p>",
+  "creators": [
+    {
+      "name": "Akindipe, Stephen Olumide",
+      "affiliation": "Independent Researcher, Albany, NY, USA",
+      "orcid": "0000-0002-1846-9662"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "municipal energy",
+    "infrastructure finance",
+    "measurement and verification",
+    "program evaluation",
+    "federal grants",
+    "New York State",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Olumide-Akindipe/verification-gap-ledger/tree/v0.1.1",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://olumide-akindipe.github.io/verification-gap-ledger/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}
