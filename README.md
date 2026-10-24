@@ -7,6 +7,7 @@
 > The Verification Gap Ledger (VGL) is an open versioned register containing federal and New York State programs targeted towards funding municipal energy and infrastructure. For each program, the VGL records three distinct parameters: what verification of results is required (R), what results are actually made publicly available (C), and whether an external party could attribute outcomes to the funding (A). Every rating is directly linked to the exact source document and section.
 
 **Browse and search the Ledger online:** https://olumide-akindipe.github.io/verification-gap-ledger/
+**View and download preprint:** https://doi.org/10.5281/zenodo.23622181
 
 ## Why
 
