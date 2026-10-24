@@ -2,7 +2,7 @@
 
 [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23302897.svg)](https://doi.org/10.5281/zenodo.23302897)
 
-**Status: Version 0.1.0, released 2026-10-11. Concept DOI (all versions): [10.5281/zenodo.23302897](https://doi.org/10.5281/zenodo.23302897). Version 0.1.0 DOI: [10.5281/zenodo.23302898](https://doi.org/10.5281/zenodo.23302898). Maintainer: Stephen Olumide Akindipe (ORCID [0000-0002-1846-9662](https://orcid.org/0000-0002-1846-9662)).**
+**Status: Release 0.1.1, 2026-10-23 (data unchanged from 0.1.0, released 2026-10-11). Concept DOI (all versions): [10.5281/zenodo.23302897](https://doi.org/10.5281/zenodo.23302897). Version 0.1.0 DOI: [10.5281/zenodo.23302898](https://doi.org/10.5281/zenodo.23302898). Maintainer: Stephen Olumide Akindipe (ORCID [0000-0002-1846-9662](https://orcid.org/0000-0002-1846-9662)).**
 
 > The Verification Gap Ledger (VGL) is an open versioned register containing federal and New York State programs targeted towards funding municipal energy and infrastructure. For each program, the VGL records three distinct parameters: what verification of results is required (R), what results are actually made publicly available (C), and whether an external party could attribute outcomes to the funding (A). Every rating is directly linked to the exact source document and section.
 

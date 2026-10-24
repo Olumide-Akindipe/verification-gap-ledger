@@ -3,15 +3,15 @@ message: "If you use this dataset, please cite it as below."
 type: dataset
 title: "Verification Gap Ledger"
 abstract: "An open, versioned register of federal and New York State programs funding municipal energy and infrastructure, coded for required verification, public results, and outcome attributability, with source-level evidence for every code."
-version: "0.1.0"
-date-released: "2026-10-11"
+version: "0.1.1"
+date-released: "2026-10-23"
 authors:
   - family-names: "Akindipe"
     given-names: "Stephen Olumide"
     orcid: "https://orcid.org/0000-0002-1846-9662"
     affiliation: "Independent Researcher, Albany, NY, USA"
 license: CC-BY-4.0
-doi: "10.5281/zenodo.23302898"
+doi: "10.5281/zenodo.23302897"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23302897"
