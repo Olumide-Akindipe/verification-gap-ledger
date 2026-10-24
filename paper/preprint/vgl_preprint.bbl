@@ -102,8 +102,9 @@ Mark~D. Wilkinson, Michel Dumontier, IJsbrand~Jan Aalbersberg, et~al.
 
 \bibitem[Akindipe(2026)]{akindipe2026vgl}
 Stephen~Olumide Akindipe.
-\newblock {Verification Gap Ledger (Version 0.1.0)}, 2026.
-\newblock Data set. Concept DOI for all versions: 10.5281/zenodo.23302897.
+\newblock {Verification Gap Ledger (Release 0.1.1; data version 0.1.0)}, 2026.
+\newblock Data set and code. Concept DOI for all versions:
+  10.5281/zenodo.23302897.
 
 \bibitem[Delmelle and Casas(2012)]{delmelle2012}
 Elizabeth~C. Delmelle and Irene Casas.

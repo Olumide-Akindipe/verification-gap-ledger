@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.1 - 2026-10-23
+## 0.1.1 - 2026-10-24 (DOI 10.5281/zenodo.23622181)
 
 Release adding analysis code and documents. The data tables (vgl_programs.csv, vgl_evidence.csv, vgl_reference_sources.csv) and stats.json are byte-identical to 0.1.0, so every code and count is unchanged.
 

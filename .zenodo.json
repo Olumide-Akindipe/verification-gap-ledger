@@ -23,14 +23,16 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/Olumide-Akindipe/verification-gap-ledger/tree/v0.1.1",
+      "identifier": "https://github.com/Olumide-Akindipe/verification-gap-ledger",
       "relation": "isSupplementTo",
-      "scheme": "url"
+      "scheme": "url",
+      "resource_type": "software"
     },
     {
       "identifier": "https://olumide-akindipe.github.io/verification-gap-ledger/",
-      "relation": "isDocumentedBy",
-      "scheme": "url"
+      "relation": "isVariantFormOf",
+      "scheme": "url",
+      "resource_type": "other"
     }
   ]
 }
