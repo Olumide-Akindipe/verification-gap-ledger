@@ -10,3 +10,7 @@ paper/preprint/*.fdb_latexmk
 paper/preprint/*.out
 paper/preprint/*.blg
 paper/preprint/build.log
+dist/
+build/
+*.egg-info/
+.pytest_cache/

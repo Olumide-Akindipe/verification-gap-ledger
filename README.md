@@ -8,6 +8,19 @@
 
 **Browse and search the Ledger online:** https://olumide-akindipe.github.io/verification-gap-ledger/
 
+**Install the data as a Python package:**
+
+```
+pip install verification-gap-ledger
+```
+
+```python
+import verification_gap_ledger as vgl
+vgl.programs()               # 24 programs with R, C and A codes
+vgl.evidence("VGL-NY-006")   # the sourced evidence behind one program's codes
+```
+
+The package also installs a `vgl` command (`vgl info`, `vgl list`, `vgl show VGL-NY-006`, `vgl export ./folder`, `vgl cite`). See `PYPI_README.md` for the full interface.
 
 ## Why
 
@@ -45,6 +58,7 @@ python code/02_figures.py    # Figure 1 (add --final after verification)
 node code/03_report.js       # technical report (add --final after verification; needs: npm install docx)
 python code/04_site.py       # browse-and-search website, written to site/
 python code/05_preprint_stats.py  # preprint numbers not in stats.json (sections 5 and 6), written to paper/stats_preprint.json; needs scipy
+python code/07_sync_package_data.py # copy released data into the Python package (src/verification_gap_ledger/data)
 python code/06_preprint_assets.py # preprint figures (Power BI style), number macros, data tables and source bibliography, written to paper/preprint/
 cd paper/preprint && latexmk -pdf vgl_preprint.tex   # typeset the two-column preprint PDF
 ```

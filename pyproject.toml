@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verification-gap-ledger"
+version = "0.1.1"
+description = "Open, source-coded register of the verification, disclosure and attributability of federal and New York State municipal energy and infrastructure funding programs."
+readme = "PYPI_README.md"
+requires-python = ">=3.9"
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE", "LICENSE-DATA"]
+authors = [{ name = "Stephen Olumide Akindipe" }]
+keywords = [
+    "measurement and verification",
+    "program evaluation",
+    "municipal energy",
+    "infrastructure finance",
+    "performance reporting",
+    "transparency",
+    "open data",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Sociology",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pandas = ["pandas>=1.3"]
+test = ["pytest>=7"]
+
+[project.scripts]
+vgl = "verification_gap_ledger.cli:main"
+
+[project.urls]
+Homepage = "https://olumide-akindipe.github.io/verification-gap-ledger/"
+Repository = "https://github.com/Olumide-Akindipe/verification-gap-ledger"
+Dataset = "https://doi.org/10.5281/zenodo.23302897"
+Changelog = "https://github.com/Olumide-Akindipe/verification-gap-ledger/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+verification_gap_ledger = ["data/*.csv", "data/*.json", "py.typed"]

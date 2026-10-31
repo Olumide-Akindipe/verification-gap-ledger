@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Python package `verification-gap-ledger` (PyPI): bundles the 0.1.0 data tables and stats.json unchanged, with a Python interface (`programs`, `program`, `evidence`, `reference_sources`, `stats`, `citation`) and a `vgl` command line tool. Package version 0.1.1 matches the Zenodo release. Added pyproject.toml, src/verification_gap_ledger, tests, code/07_sync_package_data.py and a GitHub Actions workflow that tests, builds and publishes through PyPI Trusted Publishing. No data changes.
+
 ## 0.1.1 - 2026-10-24 (DOI 10.5281/zenodo.23622181)
 
 Release adding analysis code and documents. The data tables (vgl_programs.csv, vgl_evidence.csv, vgl_reference_sources.csv) and stats.json are byte-identical to 0.1.0, so every code and count is unchanged.
