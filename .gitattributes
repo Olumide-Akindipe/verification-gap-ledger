@@ -1,0 +1,2 @@
+   # Released data files are archived byte for byte; never convert their line endings.
+   *.csv -text
