@@ -33,6 +33,12 @@
       "relation": "isVariantFormOf",
       "scheme": "url",
       "resource_type": "other"
+    },
+    {
+      "identifier": "https://pypi.org/project/verification-gap-ledger/",
+      "relation": "isSupplementedBy",
+      "scheme": "url",
+      "resource_type": "software"
     }
   ]
 }

@@ -22,7 +22,7 @@ vgl.evidence("VGL-NY-006")   # the sourced evidence behind one program's codes
 
 The package also installs a `vgl` command (`vgl info`, `vgl list`, `vgl show VGL-NY-006`, `vgl export ./folder`, `vgl cite`). See `PYPI_README.md` for the full interface.
 
-## Why
+## Overview
 
 Municipal energy programs offer the benefits of energy, cost, and emissions savings. However, these programs differ widely in the proof of results they require and in what they publish. There is no single public record of those differences. The Ledger provides one, allowing municipal officials to evaluate programs based on the evidence they produce, and enabling program auditors and researchers to see where verification is thin.
 
